@@ -4,6 +4,6 @@ this repo includes:
 1. algorithms
 2. data structures
 3. interviewing technique
-4. system design
+4. system design (later, cba rn)
    
 
