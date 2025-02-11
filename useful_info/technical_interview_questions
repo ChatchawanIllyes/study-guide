@@ -1,0 +1,42 @@
+Questions to Ask During Technical Interviews
+1. Clarify the Problem
+"Can you clarify the problem statement?"
+
+"What are the input and output formats?"
+
+"Are there any constraints on the input size or values?"
+
+2. Ask About Edge Cases
+"Can the input be empty?"
+
+"Can the input contain negative numbers?"
+
+"Are there any special cases I should consider (e.g., duplicates, cycles)?"
+
+3. Discuss Input Assumptions
+"Can I assume the input is always valid?"
+
+"Should I handle null or invalid inputs?"
+
+"Is the input sorted or unsorted?"
+
+4. Ask About Performance
+"What is the expected time and space complexity?"
+
+"Should I optimize for time or space?"
+
+"Is the input size small enough for a brute-force solution?"
+
+5. Confirm Output Requirements
+"Should I return the output in a specific format?"
+
+"Are there multiple valid outputs, or is there only one correct answer?"
+
+"Should I handle ties or ambiguous cases?"
+
+6. Discuss Test Cases
+"Can you provide some sample inputs and expected outputs?"
+
+"Should I write test cases for edge cases?"
+
+"Are there any specific test cases I should consider?"
