@@ -1,0 +1,206 @@
+Edge Cases to Consider
+1. Empty Input
+Description: The input is empty (e.g., an empty array, string, or tree).
+
+Examples:
+
+Array: []
+
+String: ""
+
+Tree: null
+
+Why It Matters: Many algorithms assume non-empty inputs, so this can cause crashes or incorrect results.
+
+2. Single Element Input
+Description: The input contains only one element.
+
+Examples:
+
+Array: [1]
+
+String: "a"
+
+Tree: A single node.
+
+Why It Matters: Some algorithms fail when there’s only one element because they rely on comparisons or iterations.
+
+3. All Identical Elements
+Description: All elements in the input are the same.
+
+Examples:
+
+Array: [1, 1, 1, 1]
+
+String: "aaaa"
+
+Why It Matters: Algorithms that rely on differences between elements may fail or behave unexpectedly.
+
+4. Large Input
+Description: The input is very large (e.g., the maximum allowed size).
+
+Examples:
+
+Array: [1, 2, 3, ..., 10^5]
+
+String: A string of length 10^5.
+
+Why It Matters: Tests the efficiency of your solution and ensures it doesn’t exceed time or space limits.
+
+5. Negative Numbers
+Description: The input contains negative numbers.
+
+Examples:
+
+Array: [-1, -2, -3]
+
+Why It Matters: Some algorithms assume non-negative numbers and may fail or produce incorrect results.
+
+6. Zero Values
+Description: The input contains zero values.
+
+Examples:
+
+Array: [0, 0, 0]
+
+Integer: 0
+
+Why It Matters: Zero can be a special case in many problems (e.g., division, multiplication, or counting).
+
+7. Duplicates
+Description: The input contains duplicate elements.
+
+Examples:
+
+Array: [1, 2, 2, 3]
+
+String: "aabbb"
+
+Why It Matters: Algorithms that assume unique elements may fail or produce incorrect results.
+
+8. Sorted Input
+Description: The input is already sorted (ascending or descending).
+
+Examples:
+
+Array: [1, 2, 3, 4] (ascending)
+
+Array: [4, 3, 2, 1] (descending)
+
+Why It Matters: Some algorithms behave differently on sorted inputs (e.g., binary search).
+
+9. Reverse Sorted Input
+Description: The input is sorted in reverse order.
+
+Examples:
+
+Array: [4, 3, 2, 1]
+
+Why It Matters: Similar to sorted input, but tests if your algorithm handles descending order.
+
+10. Null or Invalid Input
+Description: The input is null, None, or invalid.
+
+Examples:
+
+Array: null
+
+String: null
+
+Why It Matters: Ensures your solution handles invalid inputs gracefully.
+
+11. Overflow or Underflow
+Description: The input causes integer overflow or underflow.
+
+Examples:
+
+Integer: 2^31 - 1 (maximum 32-bit integer)
+
+Integer: -2^31 (minimum 32-bit integer)
+
+Why It Matters: Ensures your solution handles large numbers correctly.
+
+12. Cycles in Graphs or Linked Lists
+Description: The input contains cycles (e.g., a circular linked list or a cyclic graph).
+
+Examples:
+
+Linked List: 1 -> 2 -> 3 -> 1 (cycle back to the first node)
+
+Graph: A graph with a cycle.
+
+Why It Matters: Ensures your solution detects and handles cycles correctly.
+
+13. Disconnected Graphs
+Description: The graph is disconnected (e.g., multiple components).
+
+Examples:
+
+Graph: Two separate subgraphs with no connections between them.
+
+Why It Matters: Ensures your solution works for graphs that aren’t fully connected.
+
+14. Balanced vs. Unbalanced Trees
+Description: The tree is balanced or unbalanced.
+
+Examples:
+
+Balanced Tree: A binary tree where the height difference between left and right subtrees is at most 1.
+
+Unbalanced Tree: A binary tree that degenerates into a linked list.
+
+Why It Matters: Tests if your solution works for both balanced and unbalanced trees.
+
+15. Multiple Solutions
+Description: The problem has multiple valid solutions.
+
+Examples:
+
+Array: [1, 2, 3, 4] (multiple valid subsets or permutations)
+
+Why It Matters: Ensures your solution can handle cases where there’s more than one correct answer.
+
+16. Case Sensitivity (for Strings)
+Description: The input string contains mixed cases (e.g., uppercase and lowercase letters).
+
+Examples:
+
+String: "Hello World"
+
+Why It Matters: Ensures your solution handles case sensitivity correctly.
+
+17. Whitespace (for Strings)
+Description: The input string contains leading, trailing, or multiple spaces.
+
+Examples:
+
+String: " Hello World "
+
+Why It Matters: Ensures your solution handles whitespace correctly.
+
+18. Special Characters (for Strings)
+Description: The input string contains special characters (e.g., !, @, #, $).
+
+Examples:
+
+String: "Hello@World!"
+
+Why It Matters: Ensures your solution handles non-alphanumeric characters correctly.
+
+19. Floating-Point Precision
+Description: The input contains floating-point numbers.
+
+Examples:
+
+Array: [1.5, 2.3, 3.7]
+
+Why It Matters: Ensures your solution handles floating-point precision correctly.
+
+20. Multiple Data Types
+Description: The input contains mixed data types (e.g., integers and strings).
+
+Examples:
+
+Array: [1, "a", 2, "b"]
+
+Why It Matters: Ensures your solution handles mixed data types correctly.
