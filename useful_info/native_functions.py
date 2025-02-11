@@ -4,6 +4,8 @@
 # coding problems efficiently. Below are some commonly used ones, along with their
 # time and space complexities, and manual implementations.
 
+from collections import Counter
+
 # ====================== List Functions ======================
 
 # 1. **reverse()**:
@@ -375,6 +377,65 @@ def manual_union(s1, s2):
     return s1 | s2
 
 print(manual_union({1, 2, 3}, {2, 3, 4}))  # Output: {1, 2, 3, 4}
+
+# ====================== Counter ======================
+
+# 1. **Counter**:
+# - Counts the frequency of elements in an iterable.
+# - Time Complexity: O(n)
+# - Space Complexity: O(n)
+arr = [1, 2, 2, 3, 3, 3]
+counter = Counter(arr)
+print(counter)  # Output: Counter({3: 3, 2: 2, 1: 1})
+
+# Manual Implementation of Counter
+def manual_counter(iterable):
+    counter = {}
+    for element in iterable:
+        counter[element] = counter.get(element, 0) + 1
+    return counter
+
+print(manual_counter([1, 2, 2, 3, 3, 3]))  # Output: {1: 1, 2: 2, 3: 3}
+
+# ====================== Max and Min ======================
+
+# 1. **max()**:
+# - Returns the maximum value in an iterable.
+# - Time Complexity: O(n)
+# - Space Complexity: O(1)
+arr = [1, 2, 3, 4]
+print(max(arr))  # Output: 4
+
+# Manual Implementation of max()
+def manual_max(iterable):
+    if not iterable:
+        raise ValueError("max() arg is an empty sequence")
+    max_val = iterable[0]
+    for val in iterable:
+        if val > max_val:
+            max_val = val
+    return max_val
+
+print(manual_max([1, 2, 3, 4]))  # Output: 4
+
+# 2. **min()**:
+# - Returns the minimum value in an iterable.
+# - Time Complexity: O(n)
+# - Space Complexity: O(1)
+arr = [1, 2, 3, 4]
+print(min(arr))  # Output: 1
+
+# Manual Implementation of min()
+def manual_min(iterable):
+    if not iterable:
+        raise ValueError("min() arg is an empty sequence")
+    min_val = iterable[0]
+    for val in iterable:
+        if val < min_val:
+            min_val = val
+    return min_val
+
+print(manual_min([1, 2, 3, 4]))  # Output: 1
 
 # ====================== Other Useful Functions ======================
 
