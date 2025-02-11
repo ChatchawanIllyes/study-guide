@@ -1,0 +1,217 @@
+Certain keywords or problem descriptions often hint at specific algorithms or data structures. Here’s a breakdown:
+
+1. Arrays and Strings
+Keywords:
+"Find the maximum/minimum"
+
+"Subarray/substring"
+
+"Sum/product of elements"
+
+"Two pointers"
+
+"Sliding window"
+
+"Rotation"
+
+"Palindrome"
+
+Common Algorithms/Data Structures:
+Two Pointers: For problems involving pairs, subarrays, or palindromes.
+
+Example: Two Sum, Valid Palindrome.
+
+Sliding Window: For problems involving subarrays or substrings with a fixed or variable size.
+
+Example: Maximum Subarray, Longest Substring Without Repeating Characters.
+
+Prefix Sum: For problems involving cumulative sums or ranges.
+
+Example: Subarray Sum Equals K.
+
+Sorting: For problems where order matters.
+
+Example: Merge Intervals, Meeting Rooms.
+
+Hash Map/Set: For problems involving frequency counting or duplicates.
+
+Example: Two Sum, Contains Duplicate.
+
+2. Linked Lists
+Keywords:
+"Reverse"
+
+"Cycle"
+
+"Merge"
+
+"Middle"
+
+"Remove Nth node"
+
+Common Algorithms/Data Structures:
+Two Pointers (Fast and Slow): For problems involving cycles or finding the middle.
+
+Example: Linked List Cycle, Middle of the Linked List.
+
+Dummy Node: For problems involving edge cases (e.g., removing nodes).
+
+Example: Remove Nth Node From End of List.
+
+Recursion: For problems involving reversal or merging.
+
+Example: Reverse Linked List, Merge Two Sorted Lists.
+
+3. Trees and Graphs
+Keywords:
+"Traversal"
+
+"Path"
+
+"Cycle"
+
+"Connected components"
+
+"Shortest path"
+
+"Parent-child relationship"
+
+Common Algorithms/Data Structures:
+Depth-First Search (DFS): For problems involving traversal, paths, or connected components.
+
+Example: Maximum Depth of Binary Tree, Number of Islands.
+
+Breadth-First Search (BFS): For problems involving shortest paths or level-order traversal.
+
+Example: Shortest Path in Binary Matrix, Binary Tree Level Order Traversal.
+
+Union-Find (Disjoint Set Union): For problems involving connected components or cycles.
+
+Example: Number of Connected Components in an Undirected Graph.
+
+Tree Traversal (Inorder, Preorder, Postorder): For problems involving tree manipulation or validation.
+
+Example: Validate Binary Search Tree, Construct Binary Tree from Preorder and Inorder Traversal.
+
+4. Dynamic Programming (DP)
+Keywords:
+"Maximum/minimum"
+
+"Count the number of ways"
+
+"Optimal solution"
+
+"Subproblems"
+
+"Overlapping subproblems"
+
+Common Algorithms/Data Structures:
+1D/2D DP Array: For problems involving sequences or grids.
+
+Example: Climbing Stairs, Longest Common Subsequence.
+
+Memoization: For problems with overlapping subproblems.
+
+Example: Fibonacci Sequence, Coin Change.
+
+State Machine: For problems involving transitions between states.
+
+Example: Best Time to Buy and Sell Stock.
+
+5. Backtracking
+Keywords:
+"All possible combinations"
+
+"Permutations"
+
+"Subsets"
+
+"Generate all solutions"
+
+Common Algorithms/Data Structures:
+Recursion with Pruning: For problems involving generating all possible solutions.
+
+Example: Subsets, Permutations.
+
+DFS with Backtracking: For problems involving paths or combinations.
+
+Example: N-Queens, Word Search.
+
+6. Heaps and Priority Queues
+Keywords:
+"Kth smallest/largest"
+
+"Top K elements"
+
+"Merge K sorted lists"
+
+"Priority"
+
+Common Algorithms/Data Structures:
+Min-Heap/Max-Heap: For problems involving finding the Kth element or merging sorted lists.
+
+Example: Kth Largest Element in an Array, Merge K Sorted Lists.
+
+7. Hash Maps and Sets
+Keywords:
+"Frequency"
+
+"Duplicates"
+
+"Pairs"
+
+"Anagram"
+
+"Unique"
+
+Common Algorithms/Data Structures:
+Hash Map: For problems involving frequency counting or mapping.
+
+Example: Two Sum, Group Anagrams.
+
+Hash Set: For problems involving uniqueness or duplicates.
+
+Example: Contains Duplicate, Longest Substring Without Repeating Characters.
+
+8. Binary Search
+Keywords:
+"Sorted array"
+
+"Find target"
+
+"Lower/upper bound"
+
+"Peak element"
+
+Common Algorithms/Data Structures:
+Binary Search: For problems involving searching in sorted arrays or finding boundaries.
+
+Example: Search in Rotated Sorted Array, Find First and Last Position of Element in Sorted Array.
+
+9. Greedy Algorithms
+Keywords:
+"Maximum/minimum"
+
+"Optimal solution"
+
+"Select the best option at each step"
+
+Common Algorithms/Data Structures:
+Greedy Choice: For problems where local optimal choices lead to a global optimal solution.
+
+Example: Coin Change, Interval Scheduling.
+
+10. Bit Manipulation
+Keywords:
+"Binary"
+
+"Bits"
+
+"XOR"
+
+"Count set bits"
+
+Common Algorithms/Data Structures:
+Bitwise Operations: For problems involving binary representations or bit-level manipulations.
+
+Example: Single Number, Number of 1 Bits.
